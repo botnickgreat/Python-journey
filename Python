@@ -1,0 +1,37 @@
+print("Some message")
+print('Hello world')
+# addition
+print(2580+198)
+#Multipy
+print(23*42)
+# divide
+print(1512/27)
+# Calculate the integer part of division
+print(234//32)
+# Calculate the remainder of division
+print(356%17)
+# Calculate the first expression
+print(0.99**365)
+# Calculate the second expression
+print(1.01**365)
+#print("Code start")
+# Replace name
+print("Hello, my name is", "nick")
+print("and I'm learning Python.")
+# Calculate math expression
+print((2894//274)**6)
+#print("Code end") 
+# Initial variable
+chapter = 7
+
+# Reassign the new value
+chapter = chapter + 2 
+print(chapter)
+# Distance
+dist_km = 4677.4
+# Convert to miles
+dist_mi = dist_km/1.609
+# Output the dist_mi value
+print("San Francisco - New York distance:", dist_mi, "mi")
+# Output the dist_mi value, converted into integer type
+print("Converted distance:", int(dist_mi), "mi")
