@@ -1,0 +1,31 @@
+# Check the first statement
+print("Is 2 equal to 4?", 2 == 4)
+# Check the second statement
+print("Is 982*37 greater than 354*98?", 982*37 > 354*98)
+# Variable t
+t = "Introduction to Python"
+# Complete the first part of task
+print(len(t) < 15 and t.count('n') > 2)
+
+# Variable a
+a = 89
+# Complete the second part of task
+print(a > 9475 / 37 or a%14 < 7)
+revenue = 2000
+
+# Check if revenue is less than 2000
+if revenue < 2000:
+  # Output We suffer losses!
+  Print("we suffer losses")
+else:
+  # Output Everything is ok!
+  print( "everything is okay")
+  num = 8941 % 931
+
+# Define if/else construction
+if num % 2 == 0:
+  # Print message below
+  print("The number num is even")
+else:
+  # Print another message below
+  print("The number num is odd")
