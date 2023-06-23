@@ -1,0 +1,32 @@
+revenue = 2000
+
+# Modify your conditional statement
+if revenue < 2000:
+  print("We suffer losses!")
+# Add comparison of revenue with 2000
+elif revenue == 2000:
+  # Output 'We are breaking even!'
+  print("We are breaking even!")
+else:
+  print("Everything is ok!")
+  # Defining the number
+num = -460807 % 19
+
+# Check if the number num is negative
+if num < 0:
+  print("The number num is", "negative")
+elif num > 0:
+  print("The number num is", "positive")
+# Otherwise number num equals zero
+else: 
+  print("The number num", "equals zero")
+  # Initial and new lists
+people = ["Alex", "Noah", "Peter"]
+new_people = ["John", "Michelle"]
+
+# Task 1: use concatenation
+people_upd = people + new_people
+print(people_upd)
+# Task 2: use list method
+people.extend(new_people)
+print(people)
