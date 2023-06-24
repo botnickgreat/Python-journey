@@ -1,0 +1,43 @@
+# Initial list
+people = [["Alex", 23], ["Noah", 34], ["Peter", 29], ["John", 41], ["Michelle", 35]]
+
+# Task 1: information about the fourth person
+print(people[3])
+
+# Task 2: name of the first person
+print(people[0][0])
+
+# Task 3: age of the fifth person
+print(people[4][1])
+# Initial tuple
+people = ("Alex", "Noah", "Peter")
+# New information
+new_people = ("John", "Michelle")
+
+# Update initial tuple with new information
+upd_people = people + new_people
+print(upd_people)
+# Create tuple
+people = (('Alex', 23, 178), ('Noah', 34, 189), ('Peter', 29, 175),
+('John', 41, 185), ('Michelle', 35, 165))
+
+# Information about Peter
+print(people[2])
+# Height of John
+print(people[3][2])
+# Age of Alex
+print(people[0][1])
+# Create dictionary
+people = {'Alex': (23, 178), 'Noah': (34, 189), 'Peter': (29, 175)}
+
+# Print information about Alex
+print(people['Alex'])
+# Initial dictionary
+people = {'Alex': (23, 178), 'Noah': (34, 189), 'Peter': (29, 175)}
+
+# Add new people to the dictionary
+people['John'] = (41, 185)
+people['Michelle'] = (35, 165)
+
+# Print the dictionary
+print(people)
