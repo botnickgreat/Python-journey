@@ -1,0 +1,40 @@
+string1 = "Rome is the capital of France"
+string2 = "Brasilia located in Europe"
+string3 = "Monkeys eat earphones"
+
+# Make required replacements
+new_string1 = string1.replace('Rome','Paris')
+new_string2 = string2.replace('Europe','South America')
+new_string3 = string3.replace('earphones','bananas')
+# Print the first corrected string
+print(new_string1)
+# Print the second corrected string
+print(new_string2)
+# Print the third corrected string
+print(new_string3)
+string1 = "country"
+string2 = "Italy"
+string3 = "Ukraine"
+string4 = "Egypt"
+
+# Print country: Italy
+print(string1 + ":" + " " + string2)
+# Print country: Ukraine
+print(string1 + ":" + " " + string3)
+# Print country: Egypt
+print(string1 + ":" + " " + string4)
+variable1 = 0.6e1
+variable2 = 28.073983298
+variable3 = 4.96e2
+
+# Convert variable1 to integer
+integer1 = int(variable1)
+# Convert variable2 to integer
+integer2 = int(variable2)
+# Convert variable3 to integer
+integer3 = int(variable3)
+
+# Print converted numbers
+print(integer1)
+print(integer2)
+print(integer3)
