@@ -1,0 +1,36 @@
+price1 = "456"
+price2 = "50"
+price3 = "830"
+
+# Increase price1 variable by 15
+new_price1 = int(price1) + 15
+# Increase price2 variable by 780
+new_price2 = int(price2) + 780
+# Decrease price3 variable by 90
+new_price3 = int(price3) - 90
+
+# Print the new_price1 variable
+print(new_price1)
+# Print the new_price2 variable
+print(new_price2)
+# Print the new_price3 variable
+print(new_price3)
+
+print(float("InF"))
+print(float("InFiNiTy"))
+
+print(float("nan"))
+print(float("NaN"))
+
+# This statement equals True
+True_statement1 = bool(-90)
+# This statement equals True
+True_statement2 = bool("La vie est belle")
+
+# This statement equals False
+False_statement1 = bool(0j)
+# This statement equals False
+False_statement2 = bool(None)
+
+print(True_statement1, True_statement2)
+print(False_statement1, False_statement2)
